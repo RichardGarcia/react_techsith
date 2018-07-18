@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import Users from './Components/Users/Users'
 import Profiles from './Components/Profiles/Profiles'
 import Person from './Components/Person/Person'
+import Persons from './Components/Person/Persons'
 import Footer from './Components/Footer/Footer'
 
 import './App.css';
@@ -39,6 +40,11 @@ class App extends Component {
           </Wrapper>
 
         <Person />
+        
+        <Persons>
+          this is a child
+        </Persons>
+
 
         <Footer />
       </div>
