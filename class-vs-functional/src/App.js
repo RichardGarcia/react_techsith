@@ -45,7 +45,10 @@ class App extends Component {
           this is a child
         </Persons>
 
-
+        <Persons age="29">buddy zabala</Persons>
+        <Persons>buddy zabala 02</Persons>
+        <Persons></Persons>
+        <Persons age="30">ely zabala</Persons>
         <Footer />
       </div>
     );
